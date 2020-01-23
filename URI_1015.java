@@ -1,6 +1,6 @@
 package uri_problems_solution;
 import java.util.Scanner;
-public class URI_1015 {
+public class URI_1015 { //change class to "Main"
     public static void main(String[]args) {
         float X1, X2, Y1, Y2;
         Scanner sc = new Scanner(System.in);
@@ -8,6 +8,6 @@ public class URI_1015 {
         Y1 = sc.nextFloat();
         X2 = sc.nextFloat();
         Y2 = sc.nextFloat();
-	System.out.printf("%.4f\n",Math.sqrt(Math.pow((X2-X1),2)+Math.pow(Y2-Y1,2)));
+	      System.out.printf("%.4f\n",Math.sqrt(Math.pow((X2-X1),2)+Math.pow(Y2-Y1,2)));
     }
 }

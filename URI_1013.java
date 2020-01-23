@@ -1,10 +1,10 @@
 package uri_problems_solution;
 import java.util.Scanner;
-public class URI_1013 {
+public class URI_1013 { //change class to "Main"
     public static void main(String[]args) {
         int A, B, C, T;
         Scanner sc = new Scanner(System.in);
-	A = sc.nextInt();
+	      A = sc.nextInt();
         B = sc.nextInt();
         C = sc.nextInt();
         T = A;
@@ -15,6 +15,6 @@ public class URI_1013 {
                 T = B;
             }
         }
-	System.out.println(T+" eh o maior");
+	      System.out.println(T+" eh o maior");
     }
 }
