@@ -1,6 +1,6 @@
 package uri_problems_solution;
 import java.util.Scanner;
-public class URI_1020 {
+public class URI_1020 { //change class to "Main"
     public static void main(String[]args) {
         int D, Y, M;
         Scanner sc = new Scanner(System.in);
